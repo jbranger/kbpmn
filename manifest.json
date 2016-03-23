@@ -1,0 +1,29 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "main.js" ]
+      }
+   },
+   "author": "Katana BPMN",
+   "description": "A modeler for BPMN 2.0 based on bpmn.io",
+   "file_handlers": {
+      "any": {
+         "extensions": [ "*", "bpmn", "xml" ]
+      }
+   },
+   "icons": {
+      "128": "icons/icon_128.png",
+      "16": "icons/icon_16.png",
+      "48": "icons/icon_48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgkk//+y3VD4EH/EAw+WJKzAm/gUGoq//1Qk03aoaCKuLOIj5Efr6jUfBx+ky2hfJv6Mgur+wbNuP2KWehF6yD986nmqXE5Tj0jOJ3aoURavIJoMKflu9U8cXzpCC0tmt4wltGk714cVJlK9toXn8zPAb9ypmuTfRiZPV3OsElyKvEaGu9OyxgPF4wl0qrplnLMx+a6T5NR/bsOSzinxxGAuxUBwV+ItLNwFcbeCpeLGCj7meNrNNE+D253Zvs7Ov0SS4dEiBGT9BOlvK8iLIqwepy23yGkcx1Hw/mIrWJM/73Z+1oq305ma+Txvk3p9OquLuAwCBfxhUU7WquHH57wIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "30",
+   "name": "Katana BPMN",
+   "offline_enabled": true,
+   "permissions": [ {
+      "fileSystem": [ "write", "retainEntries", "directory" ]
+   }, "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.12.0"
+}

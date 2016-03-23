@@ -1,0 +1,7 @@
+.katana-logo {
+	height: 20px;
+	width: 100px;
+	margin: 5px;
+	background: url("/media/Katana_logo.png") no-repeat;
+	background-size: 100%;
+}
