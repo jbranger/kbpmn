@@ -1,0 +1,16 @@
+dist/
+tmp/
+node_modules/brfs/
+node_modules/camunda-bpmn-moddle/
+node_modules/diagram-js/
+node_modules/grunt/
+node_modules/grunt-browserify/
+node_modules/grunt-contrib-connect/
+node_modules/grunt-contrib-copy/
+node_modules/grunt-contrib-jshint/
+node_modules/grunt-contrib-less/
+node_modules/grunt-contrib-watch/
+node_modules/inherits/
+node_modules/jquery/
+node_modules/load-grunt-tasks/
+node_modules/lodash/*
