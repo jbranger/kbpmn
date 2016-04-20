@@ -82,6 +82,7 @@ function registerFileDrop(container, callback) {
 
       var xml = e.target.result;
 
+
       callback(xml);
     };
 

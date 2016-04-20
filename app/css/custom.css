@@ -1,0 +1,133 @@
+@CHARSET "ISO-8859-1";
+
+
+.bio-header {
+  line-height: 40px;
+  height: 5%;
+  background: #dfdfdf;
+  border-bottom: solid 1px #999;
+  flex: initial;
+}
+.bio-header > * {
+  display: flex;
+  vertical-align: middle;
+}
+.logo {
+  color: #52b415;
+  font-size: 20px;
+  text-decoration: none;
+  margin: 5px 10px;
+}
+
+
+
+/* '' */
+.bpmn-icon-bpmn-io:before {
+  content: '\e831';
+}
+/* '' */
+.icon-plus:before {
+  content: '\f415';
+}
+/* '' */
+.icon-loading:before {
+  content: '\f416';
+}
+/* '' */
+.icon-minus:before {
+  content: '\f417';
+}
+/* '' */
+.icon-menu:before {
+  content: '\f418';
+}
+/* '' */
+.icon-picture:before {
+  content: '\f419';
+}
+/* '' */
+.icon-new:before {
+  content: '\f41a';
+}
+/* '' */
+.icon-size-reset:before {
+  content: '\f41b';
+}
+/* '' */
+.icon-info:before {
+  content: '\f41c';
+}
+/* '' */
+.icon-comment-1:before {
+  content: '\f41d';
+}
+/* '' */
+.icon-open:before {
+  content: '\f41e';
+}
+/* '' */
+.icon-save:before {
+  content: '\f41f';
+}
+/* '' */
+.icon-undo:before {
+  content: '\f420';
+}
+/* '' */
+.icon-redo:before {
+  content: '\f421';
+}
+/* '' */
+.icon-save-normal:before {
+  content: '\f422';
+}
+/* '' */
+.icon-save-as:before {
+  content: '\f423';
+}
+.menu-bar > * {
+  vertical-align: middle;
+  display: inline-block;
+}
+.menu-bar .placeholder {
+  background: #CCC;
+  width: 1px;
+  box-shadow: 0 0 1px #DDD;
+  height: 20px;
+  margin: 2px;
+}
+.menu-bar button {
+  border: none;
+  background: transparent;
+  text-align: center;
+  padding: 2px;
+  margin-right: 1px;
+  border-radius: 4px;
+  width: 25px;
+  height: 25px;
+  font-size: 14px;
+  outline: none;
+}
+.menu-bar button:not(.disabled):hover,
+.menu-bar button:not(.disabled):active {
+  background: #F3F3F4;
+}
+.menu-bar button:not(.disabled):hover {
+  border: solid 1px #CCC;
+}
+.menu-bar button:active:not(.disabled) {
+  border: solid 1px #BBB;
+  box-shadow: inset 0 3px 5px #AAA;
+}
+.menu-bar button.disabled {
+  color: #999;
+  cursor: default;
+}
+
+.katana-logo {
+	height: 20px;
+	width: 100px;
+	margin: 5px;
+	background: url("/media/Katana_logo.png") no-repeat;
+	background-size: 100%;
+}

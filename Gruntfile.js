@@ -134,7 +134,7 @@ module.exports = function(grunt) {
       },
       livereload: {
         options: {
-          open: { appName: 'google-chrome' },
+          open: { appName: 'chrome' },
           base: [
             '<%= config.dist %>'
           ]
