@@ -1,24 +1,40 @@
 {
-  "name": "Magic",
-  "prefix": "magic",
-  "uri": "http://magic",
+  "name": "KatanaProperties",
+  "prefix": "katana",
+  "uri": "http://katana",
   "xml": {
     "tagAlias": "lowerCase"
   },
   "associations": [],
   "types": [
     {
-      "name": "BewitchedStartEvent",
+      "name": "eventCategory",
       "extends": [
         "bpmn:StartEvent"
       ],
       "properties": [
         {
-          "name": "spell",
+          "name": "eventCategory",
           "isAttr": true,
           "type": "String"
         },
       ]
     },
+    
+    {
+      "name": "eventName",
+      "extends": [
+        "bpmn:StartEvent"
+      ],
+      "properties": [
+        {
+          "name": "eventName",
+          "isAttr": true,
+          "type": "String"
+        },
+      ]
+    },
+    
+ 
   ]
 }

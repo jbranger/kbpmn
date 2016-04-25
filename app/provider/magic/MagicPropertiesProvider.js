@@ -60,7 +60,7 @@ function createMagicTabGroups(element, elementRegistry) {
   // Create a group called "Black Magic".
   var blackMagicGroup = {
     id: 'black-magic',
-    label: 'Black Magic',
+    label: 'Event Properties',
     entries: []
   };
 
@@ -87,7 +87,7 @@ function MagicPropertiesProvider(eventBus, bpmnFactory, elementRegistry) {
     // The "magic" tab
     var magicTab = {
       id: 'magic',
-      label: 'Magic',
+      label: 'Details',
       groups: createMagicTabGroups(element, elementRegistry)
     };
 
