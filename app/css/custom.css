@@ -13,7 +13,7 @@
   vertical-align: middle;
 }
 .logo {
-  color: #52b415;
+  background: url("/media/favicon.ico") no-repeat;
   font-size: 20px;
   text-decoration: none;
   margin: 5px 10px;
