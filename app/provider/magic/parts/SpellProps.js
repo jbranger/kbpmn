@@ -41,13 +41,70 @@ module.exports = function(group, element) {
 			modelProperty : 'eventDescription'
 		}));
 	}
+	
+	if (is(element,'bpmn:ExclusiveGateway')) {
+		group.entries.push(entryFactory.textField({
+			id : 'ExclusiveGatewayName',
+			description : 'Gateway Name',
+			label : 'Gateway Name',
+			modelProperty : 'ExclusiveGatewayName'
+		}));
+		
+		group.entries.push(entryFactory.textField({
+			id : 'ExclusiveGatewayType',
+			description : 'Gateway Type',
+			label : 'Gateway Name',
+			modelProperty : 'ExclusiveGatewayType'
+		}));
+		group.entries.push(entryFactory.textArea({
+			id : 'evaluationRules',
+			description : 'Evaluation Rules',
+			label : 'Evaluation Rules',
+			minRows: '7',
+			modelProperty : 'evaluationRules'
+		}));
+		
+		group.entries.push(entryFactory.textArea({
+			id : 'successLogMessage',
+			description : 'Success Log Message ',
+			label : 'Success Log Message ',
+			modelProperty : 'successLogMessage'
+		}));
+		
+		group.entries.push(entryFactory.textArea({
+			id : 'errorLogMessage',
+			description : 'Error Log Message ',
+			label : 'Error Log Message ',
+			modelProperty : 'errorLogMessage'
+		}));
+		
+	}
+	
 
 	if (is(element, 'bpmn:IntermediateThrowEvent')) {
 		group.entries.push(entryFactory.textField({
-			id : 'intermediate',
-			description : 'Intermediate test',
-			label : 'Intermediate Test',
-			modelProperty : 'intermediate'
+			id : 'intermediateEventCategory',
+			description : 'Intermediate Category',
+			label : 'Intermediate Category',
+			modelProperty : 'intermediateEventCategory'
+		}));
+		group.entries.push(entryFactory.textField({
+			id : 'intermediateEventName',
+			description : 'Intermediate Name',
+			label : 'Intermediate Name',
+			modelProperty : 'intermediateEventName'
+		}));
+		group.entries.push(entryFactory.textField({
+			id : 'intermediateEventType',
+			description : 'Intermediate Type',
+			label : 'Intermediate Type',
+			modelProperty : 'intermediateEventType'
+		}));
+		group.entries.push(entryFactory.textArea({
+			id : 'intermediateEventDescription',
+			description : 'Intermediate Description',
+			label : 'Intermediate Description',
+			modelProperty : 'intermediateEventDescription'
 		}));
 	}
 	
